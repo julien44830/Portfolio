@@ -1,0 +1,17 @@
+body{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+h1{
+  position: relative;
+  color: white;
+  z-index: 1;
+  border-radius: 5px;
+  padding: 20px;
+  background-color: rgb(243 238 238 / 8%);
+  font-size: 50px;
+}
