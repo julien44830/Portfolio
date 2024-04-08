@@ -1,16 +1,22 @@
-import Particules from "./compoments/Particules"
+import Particules from "./compoments/Particules";
 import "./index.css";
+import {Outlet} from "react-router-dom";
+
+
+
 
 
 
 function App() {
 
+
   return (
     <>
-  <h1>Julien Dev</h1>
-  <Particules/>
+      <Particules/>
+      <Outlet />
     </>
   )
 }
 
-export default App
+
+export default App;

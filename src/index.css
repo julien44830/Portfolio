@@ -3,15 +3,22 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-  
+    z-index: 1;
 }
 
 h1{
   position: relative;
   color: white;
-  z-index: 1;
+
   border-radius: 5px;
   padding: 20px;
   background-color: rgb(243 238 238 / 8%);
   font-size: 50px;
+}
+
+a{
+  position: relative;
+    z-index: 10;
+    color: white;
+    font-size: 30px;
 }

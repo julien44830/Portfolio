@@ -13,6 +13,7 @@
     "@tsparticles/react": "^3.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-router-dom": "^6.22.3",
     "tsparticles": "^3.3.0"
   },
   "devDependencies": {
