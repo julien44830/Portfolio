@@ -78,8 +78,8 @@ const Particules = () => {
               "mode": "grab",
               "parallax": {
                 "enable": true,
-                "force": 20,
-                "smooth": 10
+                "force": 100, //vitesse Parallax
+                "smooth": 5 //puissance Parallax
               }
             },
             "resize": {
@@ -105,7 +105,7 @@ const Particules = () => {
               "distance": 200
             },
             "bubble": {
-              "distance": 400,
+              "distance": 40,
               "duration": 2,
               "mix": false,
               "opacity": 0.8,
@@ -125,7 +125,7 @@ const Particules = () => {
               "radius": 60
             },
             "grab": {
-              "distance": 400,
+              "distance": 200, //distance d'accroche
               "links": {
                 "blink": false,
                 "consent": false,
@@ -135,7 +135,7 @@ const Particules = () => {
             "push": {
               "default": true,
               "groups": [],
-              "quantity": 4
+              "quantity": ''
             },
             "remove": {
               "quantity": 2
