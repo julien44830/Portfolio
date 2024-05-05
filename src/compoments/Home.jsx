@@ -2,6 +2,8 @@ import { NavLink } from "react-router-dom";
 import Stack from "./Stack";
 import "../styles/stack.css";
 import "../styles/header.css";
+import "../styles/index.css";
+
 
 function Home() {
     return (

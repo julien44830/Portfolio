@@ -1,4 +1,6 @@
 .stack{
     position: relative;
     color: white;
+    font-family: monospace;
+    letter-spacing: 7px;
   }

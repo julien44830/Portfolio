@@ -9,28 +9,28 @@ const Stack = () => {
                 // Same substring at the start will only be typed out once, initially
 
                 "Front-end",
-                1000, // wait 1s before replacing "Mice" with "Hamsters"
-                "Back-end",
-                1000,
+                2000, // vitesse avnt de passer a la suite
                 "Html/CSS",
-                1000,
+                2000,
                 "Java-Script",
-                1000,
+                2000,
                 "React",
-                1000,
-                "Vite Js",
-                1000,
-                "Typre Script",
-                1000,
+                2000,
+                "Vite-Js",
+                2000,
+                "Type-Script",
+                2000,
+                "Back-end",
+                2000,
                 "Node",
-                1000,
+                2000,
                 "Express",
-                1000,
+                2000,
                 "Git",
-                1000,
+                2000,
             ]}
             wrapper="span"
-            speed={30}
+            speed={10}
             style={{ fontSize: "2em", display: "inline-block" }}
             repeat={Infinity}
             className={"stack"}
