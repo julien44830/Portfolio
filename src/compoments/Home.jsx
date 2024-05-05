@@ -5,7 +5,7 @@ function Home(){
     return(
         <>
         <h1>{"je suis sur la home page"}</h1>
-        <NavLink  to="/compoments/Login">Login</NavLink>
+        <NavLink  to="/login">Login</NavLink>
 
         </>
     )

@@ -24,7 +24,7 @@ const Particules = () => {
   }, []);
 
   const particlesLoaded = (container) => {
-    console.log(container);
+    console.warn(container);
   };
 
   const options = useMemo(
@@ -322,7 +322,7 @@ const Particules = () => {
               "mode": "delete",
               "value": 0
             },
-            "value": 100
+            "value": 50 //nombre de particules
           },
           "opacity": {
             "value": {

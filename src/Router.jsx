@@ -7,13 +7,14 @@ const router = createBrowserRouter([
     {
         path:'/',
         element: <App />,
+        errorElement: <h1>not found</h1>,
         children : [
             {
-                path :'/compoments/Login',
+                path :'/login',
                 element: <Login />
             },
             {
-                path:'/compoments/Home',
+                path:'/',
                 element: <Home />
             }
         ]

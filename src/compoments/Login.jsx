@@ -7,10 +7,10 @@ function Login(){
     return(
         <>
                 <h1>{"je suis sur login"}</h1>
-                <NavLink  to="/compoments/Home">home</NavLink>
+                <NavLink  to="/">home</NavLink>
 
         </>
     )
 }
 
-export default Login;
+export default Login
