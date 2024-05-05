@@ -1,12 +1,9 @@
 body{
   height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-    z-index: 1;
+  /* z-index: 1; */
 }
 
-h1{
+.h1-home{
   position: relative;
   color: white;
 
@@ -21,4 +18,49 @@ a{
     z-index: 10;
     color: white;
     font-size: 30px;
+}
+
+#tsparticles{
+  background-color: red;
+}
+
+.h1-home {
+  color: hsl(0, 0%, 28%);
+  font-size: 50px!important;
+  font-weight: bold!important;
+  font-family: monospace;
+  letter-spacing: 7px!important;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.h1-home {
+  padding: 64px;
+  background: linear-gradient(to right, hsl(0, 0%, 30%) 0, hsl(108, 52%, 49%) 10%, hsl(0, 0%, 30%) 20%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shine 3s infinite linear;
+}
+
+@keyframes shine {
+  0% {
+    background-position: 0;
+  }
+  60% {
+    background-position: 700px;
+  }
+  100% {
+    background-position: 100%;
+  }
+}
+
+p{
+  position: relative;
+  color: white;
+
+}
+
+.stack{
+  position: relative;
+  color: white;
 }
