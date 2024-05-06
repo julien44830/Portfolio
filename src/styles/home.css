@@ -1,6 +1,44 @@
+.h1-home{
+    position: relative;
+    color: white;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: rgb(243 238 238 / 8%);
+    font-size: 50px;
+    color: hsl(0, 0%, 28%);
+    font-size: 50px!important;
+    font-weight: bold!important;
+    font-family: monospace;
+    letter-spacing: 7px!important;
+    /* cursor: pointer; */
+    text-transform: uppercase;
+    padding: 64px;
+    background: linear-gradient(to right, hsl(0, 0%, 30%) 0, hsl(108, 52%, 49%) 10%, hsl(0, 0%, 30%) 20%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shine 3s infinite linear;
+  }
+
+  @keyframes shine {
+    0% {
+      background-position: 0;
+    }
+    60% {
+      background-position: 700px;
+    }
+    100% {
+      background-position: 100%;
+    }
+  }
+
 .section-home{
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
     align-items: end;
 }
+
+p{
+    position: relative;
+    color: white;
+  
+  }

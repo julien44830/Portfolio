@@ -6,32 +6,24 @@ const Stack = () => {
             <TypeAnimation
                 preRenderFirstString={true}
                 sequence={[
-                    // Same substring at the start will only be typed out once, initially
 
-                    "Front-end",
-                    2000, // vitesse avnt de passer a la suite
-                    "Html/CSS",
+                    "",
                     2000,
-                    "Java-Script",
-                    2000,
-                    "React",
-                    2000,
-                    "Vite-Js",
-                    2000,
-                    "Type-Script",
-                    2000,
-                    "Back-end",
-                    2000,
-                    "Node",
-                    2000,
-                    "Express",
-                    2000,
-                    "Git",
-                    2000,
+                    "Front-end \n \n Html/CSS \n JavaScript \n React \n Vite Js \n Type-Script",
+                    4000,
+                    "Back-end \n \n Node \n Express",
+                    4000,
+                    "\n\nGit \n gitHub",
+                    4000,
                 ]}
-                wrapper="span"
+                wrapper="h2"
                 speed={10}
-                style={{ fontSize: "2em", display: "inline-block" }}
+                deletionSpeed={90}
+                style={{ 
+                    fontSize: "2em", 
+                    display: "block",
+                    whiteSpace: 'pre-line', 
+                }}
                 repeat={Infinity}
                 className={"stack"}
             />

@@ -1,16 +1,24 @@
 .section-text-home{
     position: relative;
+    height: 500px;
+    max-height: 500px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.article-text-home{
     border: 1px Solid orange;
     padding: 30px;
-    width: 90%;
-    /* background-color: black; */
-    backdrop-filter: blur(5px);
-
-    flex: 40%;
-
+    backdrop-filter: blur(10px);
+    font-size: 1.5rem;
+    width: 50%;
 
 }
 
 .h2-text-home{
     color: white;
+    font-size: 2rem;
+    text-align: center;
 }

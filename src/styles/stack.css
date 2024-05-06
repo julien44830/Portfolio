@@ -1,6 +1,22 @@
-.stack{
+.stack {
     position: relative;
+    width: 50%;
+    height: 500px;
+    max-height: 500px;
+    margin: auto;
+    padding: 30px;
+    border-bottom: 1px solid orange;
+    border-left: 1px solid orange;
     color: white;
     font-family: monospace;
     letter-spacing: 7px;
-  }
+    backdrop-filter: blur(5px);
+    text-align: start;
+}
+
+.container-stack {
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+}
