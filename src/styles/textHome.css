@@ -1,0 +1,16 @@
+.section-text-home{
+    position: relative;
+    border: 1px Solid orange;
+    padding: 30px;
+    width: 90%;
+    /* background-color: black; */
+    backdrop-filter: blur(5px);
+
+    flex: 40%;
+
+
+}
+
+.h2-text-home{
+    color: white;
+}

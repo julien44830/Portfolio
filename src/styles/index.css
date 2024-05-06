@@ -32,7 +32,7 @@ a{
 }
 
 #tsparticles{
-  background-color: red;
+  background-color: black;
 }
 
 @keyframes shine {
@@ -56,4 +56,17 @@ p{
 .stack{
   position: relative;
   color: white;
+  border-bottom: 1px  solid orange;
+  border-left: 1px  solid orange;
+  width: 40%;
+  height: 100%;
+  margin: auto;
+  backdrop-filter: blur(5px);
+}
+
+.container-stack{
+  display: block;
+  position: relative;
+  flex: 50%;
+  height: 100%;
 }
