@@ -1,8 +1,8 @@
 .stack {
     position: relative;
     width: 50%;
-    height: 500px;
-    max-height: 500px;
+    height: 400px;
+    max-height: 400px;
     margin: auto;
     padding: 30px;
     border-bottom: 1px solid orange;

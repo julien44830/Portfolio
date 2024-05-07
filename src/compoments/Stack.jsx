@@ -6,7 +6,6 @@ const Stack = () => {
             <TypeAnimation
                 preRenderFirstString={true}
                 sequence={[
-
                     "",
                     2000,
                     "Front-end \n \n Html/CSS \n JavaScript \n React \n Vite Js \n Type-Script",
@@ -20,7 +19,7 @@ const Stack = () => {
                 speed={10}
                 deletionSpeed={90}
                 style={{ 
-                    fontSize: "2em", 
+                    fontSize: "1.4em", 
                     display: "block",
                     whiteSpace: 'pre-line', 
                 }}

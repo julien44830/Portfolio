@@ -13,7 +13,7 @@
     /* cursor: pointer; */
     text-transform: uppercase;
     padding: 64px;
-    background: linear-gradient(to right, hsl(0, 0%, 30%) 0, hsl(108, 52%, 49%) 10%, hsl(0, 0%, 30%) 20%);
+    background: linear-gradient(to right, hsl(0, 0%, 30%) 0, orange, hsl(0, 0%, 30%) 20%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     animation: shine 3s infinite linear;
@@ -35,10 +35,10 @@
     display: flex;
     justify-content: center;
     align-items: end;
+    margin-top: 150px;
 }
 
 p{
     position: relative;
     color: white;
-  
   }
