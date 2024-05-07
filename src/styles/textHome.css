@@ -1,8 +1,8 @@
 .section-text-home{
     position: relative;
-    height: 500px;
-    max-height: 500px;
-    width: 50%;
+    height: 400px;
+    max-height: 400px;
+    width: 100%;
     display: flex;
     justify-content: center;
 
@@ -12,13 +12,18 @@
     border: 1px Solid orange;
     padding: 30px;
     backdrop-filter: blur(10px);
-    font-size: 1.5rem;
-    width: 50%;
+    font-size: 1.2rem;
+    width: 70%;
 
 }
 
 .h2-text-home{
     color: white;
     font-size: 2rem;
-    text-align: center;
+    text-align: start;
+}
+
+.p-text-home{
+    margin-top: 20px;
+    letter-spacing: 2px;
 }
