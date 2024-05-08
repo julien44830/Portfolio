@@ -32,7 +32,7 @@ const Particules = () => {
             autoPlay: true,
             background: {
                 color: {
-                    value: "#000",
+                    value: "#555",
                 },
                 image: "",
                 position: "",
@@ -75,28 +75,30 @@ const Particules = () => {
                 move: {
                     enable: true,
                 },
+                // *nombre de particules
                 number: {
                     limit: {
                         mode: "delete",
-                        value: 100, // *suprime au dela de .... 
+                        value: 100, // *suprime au dela de ....
                     },
                     value: 80, // *nombre de particules
                 },
                 opacity: {
                     value: {
                         min: 0.1,
-                        max: 0.5,
+                        max: 1,
                     },
                 },
-                size: { // *parametre de scintillement
+                // *parametre de scintillement
+                size: {
                     value: {
                         min: 1,
-                        max: 5,
+                        max: 4,
                     },
                     animation: {
-                        count: 1,
-                        enable: true,// *active le scintillement
-                        speed: 20,
+                        count: 0,
+                        enable: true, // *active le scintillement
+                        speed: 10,
                         decay: 0,
                         delay: 1,
                         sync: false,
@@ -105,7 +107,8 @@ const Particules = () => {
                         destroy: "none",
                     },
                 },
-                links: { // *lien entre les particules
+                // *lien entre les particules
+                links: {
                     distance: 150,
                     enable: true,
                     frequency: 1,
@@ -131,7 +134,7 @@ const Particules = () => {
             style: {},
             themes: [],
             zLayers: 100,
-            name: "Parallax"
+            name: "Parallax",
         }),
         []
     );
@@ -144,7 +147,6 @@ const Particules = () => {
             />
         );
     }
-
     return <></>;
 };
 

@@ -11,8 +11,8 @@
 .article-text-home{
     border: 1px Solid orange;
     padding: 30px;
-    backdrop-filter: blur(10px);
-    font-size: 1.2rem;
+    backdrop-filter: blur(4px);
+    background-color: rgba(0, 0, 0, 0.6); /* Modifier l'opacité selon vos préférences */    font-size: 1.2rem;
     width: 70%;
 
 }
