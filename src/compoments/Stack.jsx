@@ -7,7 +7,7 @@ const Stack = () => {
                 preRenderFirstString={true}
                 sequence={[
                     "",
-                    2000,
+                    5000,
                     "Front-end \n \n Html/CSS \n JavaScript \n React \n Vite Js \n Type-Script",
                     4000,
                     "Back-end \n \n Node \n Express",
