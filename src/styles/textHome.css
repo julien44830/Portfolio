@@ -12,7 +12,8 @@
     border: 1px Solid orange;
     padding: 30px;
     backdrop-filter: blur(4px);
-    background-color: rgba(0, 0, 0, 0.6); /* Modifier l'opacité selon vos préférences */    font-size: 1.2rem;
+    background-color: rgba(0, 0, 0, 0.6); /* Modifier l'opacité selon vos préférences */    
+    font-size: 1rem;
     width: 70%;
 
 }
