@@ -31,7 +31,7 @@ function TextHome() {
                     sequence={[
                         "",
                         2000,
-                        "En reconversion vers le développement informatique, ma passion pour JavaScript incarne ma fascination pour ce langage polyvalent. En tant que développeur junior, j'explore constamment de nouvelles techniques pour améliorer mes compétences. J'apprécie la flexibilité syntaxique de JavaScript et sa capacité à simplifier des tâches complexes pour créer des expériences utilisateur dynamiques. Fort d'une expérience antérieure, je m'efforce d'apporter une perspective innovante à mon travail...",
+                        "    En reconversion vers le développement informatique, ma passion pour JavaScript incarne ma fascination pour ce langage polyvalent. \n\n    En tant que développeur junior, j'explore constamment de nouvelles techniques pour améliorer mes compétences. \n\n    J'apprécie la flexibilité syntaxique de JavaScript et sa capacité à simplifier des tâches complexes pour créer des expériences utilisateur dynamiques. \n\n    Fort d'une expérience antérieure, je m'efforce d'apporter une perspective innovante à mon travail...",
                         2000,
                     ]}
                     wrapper="p"
