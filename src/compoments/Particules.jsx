@@ -23,8 +23,7 @@ const Particules = () => {
         });
     }, []);
 
-    const particlesLoaded = (container) => {
-        console.warn(container);
+    const particlesLoaded = () => {
     };
 
     const options = useMemo(

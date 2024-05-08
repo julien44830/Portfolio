@@ -1,6 +1,7 @@
 import { createBrowserRouter } from "react-router-dom";
 import Login from "./compoments/Login";
 import Home from "./compoments/Home";
+import Text3D from "./compoments/Text3D";
 import App from "./App";
 
 const router = createBrowserRouter([
@@ -16,6 +17,10 @@ const router = createBrowserRouter([
             {
                 path:'/',
                 element: <Home />
+            },
+            {
+                path:'3D',
+                element: <Text3D/>
             }
         ]
     }
