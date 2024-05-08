@@ -8,21 +8,21 @@ const router = createBrowserRouter([
     {
         path:'/',
         element: <App />,
-        errorElement: <h1>not found</h1>,
         children : [
             {
-                path :'/login',
+                path :'login',
                 element: <Login />
             },
             {
-                path:'/',
+                path:'',
                 element: <Home />
             },
             {
                 path:'3D',
                 element: <Text3D/>
             }
-        ]
+        ],
+        errorElement: <h1>not found</h1>,
     }
 
 

@@ -9,7 +9,6 @@
     font-weight: bold!important;
     font-family: monospace;
     letter-spacing: 7px!important;
-
     text-transform: uppercase;
     padding: 64px;
     background: linear-gradient(to right, hsl(0, 0%, 0%) 0, orange, hsl(0, 0%, 0%) 20%);
