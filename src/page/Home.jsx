@@ -1,10 +1,10 @@
 // import { NavLink } from "react-router-dom";
 import { useState, useEffect, useContext } from "react";
 
-import Text3D from "./Text3D";
-import Particules from "./Particules";
-import TextHome from "./TextHome";
-import Stack from "./Stack";
+import Text3D from "../compoments/Text3D";
+import Particules from "../compoments//Particules";
+import TextHome from "../compoments//TextHome";
+import Stack from "../compoments//Stack";
 import IsLoadingContext from "../contexts/HomeLoadingContext";
 
 import "../styles/stack.css";
@@ -15,8 +15,6 @@ import "../styles/home.css";
 function Home() {
     const { loading, setLoading } = useContext(IsLoadingContext);
     const [showText3D, setShowText3D] = useState(loading);
-    console.log("%c⧭", "color: #733d00", showText3D);
-    console.log("%c⧭", "color: #e50000", loading);
 
     useEffect(() => {
         const timer = setTimeout(() => {

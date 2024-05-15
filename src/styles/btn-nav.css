@@ -16,24 +16,30 @@
     align-items: center;
 }
 
-.btn:hover{
+.btn:hover {
     transition: all 0.2s;
-    transform:scale(1.2);
-}
-.btn:not(:hover){
-    transition: all 0.2s;
-    transform:scale(1);
+    transform: scale(1.2);
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
+.btn:not(:hover) {
+    transition: all 0.2s;
+    transform: scale(1);
+}
 
 .btn > p {
     z-index: 2;
     font-size: large;
+    color: white;
+}
+
+.a-btn {
+    text-decoration: none;
 }
 
 .btn > img {
     position: absolute;
-    margin-top: 30px;
+    margin-top: 40px;
 }
 
 .btn-img-1 {
@@ -49,7 +55,6 @@
 
 @keyframes fleche {
     0% {
-
         transform: translatey(0px);
         height: 35px;
     }
@@ -60,10 +65,6 @@
     35% {
         transform: translatey(10px);
         height: 45px;
-    }
-    90% {
-        /* transform: translatey(5px);
-        height: 45px; */
     }
 
     100% {

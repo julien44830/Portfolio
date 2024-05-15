@@ -4,7 +4,10 @@ import "../styles/btn-nav.css";
 function ButtonNav() {
     return (
         <section className="section-btn">
-            <NavLink to="/projet">
+            <NavLink
+                to="/projet"
+                className="a-btn"
+            >
                 <div className="btn">
                     <p>projet</p>
                     <img
@@ -14,7 +17,10 @@ function ButtonNav() {
                     />
                 </div>
             </NavLink>
-            <NavLink to="/projet">
+            <NavLink
+                to="/about"
+                className="a-btn"
+            >
                 <div className="btn">
                     <p>tout sur moi</p>
                     <img
