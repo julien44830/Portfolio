@@ -2,14 +2,15 @@ import { useLoaderData } from "react-router-dom";
 
 function About() {
     const data = useLoaderData();
-    console.log("%c⧭", "color: #00bf00", data.data);
 
     return (
         <>
             <h1>je suis MOI !!!</h1>
 
             <table>
-                <caption>Nombres de kata realisé sur CodeWars : {data.data.length}</caption>
+                <caption>
+                    Nombres de kata realisé sur CodeWars : {data.data.length}
+                </caption>
                 <thead>
                     <tr>
                         <th scope="col">Nom du kata</th>
@@ -23,13 +24,13 @@ function About() {
                         <tr>
                             <th>{e.name}</th>
                             <th>{e.completedLanguages}</th>
-                            <th>{e.completedAt}</th>
+                            <th>{new Date(e.completedAt).toUTCString()}</th>
                         </tr>
                     </tbody>
                 ))}
                 <tfoot>
                     <tr>
-                        <td></td>
+                        <td>-----------------------------</td>
                     </tr>
                 </tfoot>
             </table>
