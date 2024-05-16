@@ -1,5 +1,5 @@
 import { useLoaderData } from "react-router-dom";
-
+import "../styles/about.css";
 function About() {
     const data = useLoaderData();
 
@@ -13,27 +13,30 @@ function About() {
                 </caption>
                 <thead>
                     <tr>
-                        <th scope="col">Nom du kata</th>
-                        <th scope="col">Langage</th>
                         <th scope="col">realisé le</th>
+                        <th scope="col">Langage</th>
+                        <th scope="col">Nom du kata</th>
                     </tr>
                 </thead>
 
                 {data.data.map((e, index) => (
                     <tbody key={index}>
                         <tr>
-                            <th>{e.name}</th>
+                            <th>{new Date(e.completedAt).toUTCString()}*</th>
                             <th>{e.completedLanguages}</th>
-                            <th>{new Date(e.completedAt).toUTCString()}</th>
+                            <th>{`=> ${e.name}`}</th>
                         </tr>
                     </tbody>
                 ))}
                 <tfoot>
                     <tr>
-                        <td>-----------------------------</td>
+                        <td>------------------------------</td>
                     </tr>
                 </tfoot>
             </table>
+
+            <p>*Heure GTM = heure locale - 2h </p>
+            <p>------------------------------</p>
         </>
     );
 }
