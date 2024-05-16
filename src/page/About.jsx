@@ -35,7 +35,7 @@ function About() {
                 </tfoot>
             </table>
 
-            <p>*Heure GTM = heure locale - 2h </p>
+            <p>*Heure local = heure GTM + 2h </p>
             <p>------------------------------</p>
         </>
     );
