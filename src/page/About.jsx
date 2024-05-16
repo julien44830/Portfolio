@@ -1,7 +1,7 @@
 import { useLoaderData } from "react-router-dom";
 import "../styles/about.css";
 function About() {
-    const data = useLoaderData();
+    const kata = useLoaderData();
 
     return (
         <>
@@ -9,7 +9,7 @@ function About() {
 
             <table>
                 <caption>
-                    Nombres de kata realisé sur CodeWars : {data.data.length}
+                    Nombres de kata realisé sur CodeWars : {kata.data.length}
                 </caption>
                 <thead>
                     <tr>
@@ -19,7 +19,7 @@ function About() {
                     </tr>
                 </thead>
 
-                {data.data.map((e, index) => (
+                {kata.data.map((e, index) => (
                     <tbody key={index}>
                         <tr>
                             <th>{new Date(e.completedAt).toUTCString()}*</th>
