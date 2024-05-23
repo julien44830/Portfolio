@@ -25,18 +25,14 @@ function About() {
                 {kata.data.map((e, index) => (
                     <tbody key={index}>
                         <tr>
-                            <th>{new Date(e.completedAt).toUTCString()}*</th>
+                            <th>{new Date(e.completedAt).toLocaleDateString()} {new Date(e.completedAt).toLocaleTimeString()} </th>
                             <th>{e.completedLanguages}</th>
                             <th>{`=> ${e.name}`}</th>
                         </tr>
                     </tbody>
                 ))}
                 <tfoot>
-                    <tr>
-                        <td></td>
-                        <td>...en attente de resolution de Kata...</td>
-                        <td></td>
-                    </tr>
+                       ...en attente de resolution de Kata...
                 </tfoot>
             </table>
 
@@ -45,9 +41,6 @@ function About() {
                 <p>
                     https://www.codewars.com/api/v1/users/julien44830/code-challenges/completed?page=page
                 </p>
-            <p>------------------------------</p>
-            <p>*Heure local = heure GTM + 2h </p>
-            <p>------------------------------</p>
             </section>
         </>
     );
