@@ -4,6 +4,7 @@ import Home from "./page/Home";
 import Text3D from "./compoments/Text3D";
 import Projet from "./page/Projet";
 import About from "./page/About";
+import CodeWars from "./page/CodeWars";
 import App from "./App";
 
 const router = createBrowserRouter([
@@ -30,6 +31,11 @@ const router = createBrowserRouter([
             {
                 path: "about",
                 element: <About />,
+                
+            },
+            {
+                path: "codewars",
+                element: <CodeWars />,
                 loader: () =>
                     fetch("https://www.codewars.com/api/v1/users/julien44830/code-challenges/completed?page={page}"),
             },

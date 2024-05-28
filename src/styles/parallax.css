@@ -1,0 +1,10 @@
+.parallax{
+background: url(../assets/images/backTest.png);
+    top: 0;
+    width:110vw;
+    height: 110vh;
+}
+
+.a-propos{
+    position: absolute;
+}
