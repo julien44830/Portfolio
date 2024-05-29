@@ -1,10 +1,45 @@
-.parallax{
-background: url(../assets/images/backTest.png);
-    top: 0;
-    width:110vw;
-    height: 110vh;
+#mouse-parallax-container{
+    height: 100vh;
 }
 
-.a-propos{
+
+.parallax {
+    z-index: -1;
+
     position: absolute;
+    background: url(../assets/images/background_tete_de_cheval.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: -50px;
+    max-width: 110vw;
+    width: 110vw;
+    height: 110%;
+    max-height: 110vh;
+    left: -50px;
+}
+
+.parallax-black-hole {
+    position: absolute;
+
+    background: url(../assets/images/black-hole.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 10vw;
+    height: 10vh;
+    margin-left: 80%;
+    margin-top: 10%;
+}
+
+.a-propos-section {
+    background-color: rgba(0, 0, 0, 0.212);
+    width: 900px;
+    padding: 40px;
+    border-radius: 15px;
+    color: white;
+    z-index: 2;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.a-propos {
 }
