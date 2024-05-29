@@ -9,20 +9,24 @@ import "../styles/about.css";
 function About() {
     return (
         <>
-            <NavLink to="/">
-                <p>retour accueil</p>
-            </NavLink>
             <MouseParallaxContainer
                 globalFactorX={0.1}
                 globalFactorY={0.1}
-                className="parallax"
+                className="parallax-container"
             >
                 <MouseParallaxChild
                     factorX={0.3}
                     factorY={0.5}
                     className="parallax"
+                ></MouseParallaxChild>
 
-                >
+                <MouseParallaxChild
+                    factorX={0.7}
+                    factorY={0.2}
+                    className="parallax-black-hole"
+                ></MouseParallaxChild>
+
+                <section className="a-propos-section">
                     <h1>À propos de moi</h1>
 
                     <p>
@@ -121,32 +125,60 @@ function About() {
 
                     <h2>Contact</h2>
 
-                    <a
-                        target="_blank"
-                        href="https://www.linkedin.com/in/julien-deniaud-917610238/"
+                    <section 
+                    className="contact-section">
+                        <a href="mailto:deniaudjulien0@gmail.com">
+                            deniaudjulien0@gmail.com
+                        </a>
+
+                        <div className="btn">
+                            <a
+                                target="_blank"
+                                href="https://www.linkedin.com/in/julien-deniaud-917610238/"
+                            >
+                                linkedin
+                            </a>
+                            <img
+                                src="src/assets/images/icons-fleche-bas.png"
+                                alt=""
+                                className="btn-img-2"
+                            />
+                        </div>
+
+                        <div className="btn">
+                            <a
+                                target="_blank"
+                                href="https://github.com/julien44830"
+                            >
+                                GitHub
+                            </a>
+                            <img
+                                src="src/assets/images/icons-fleche-bas.png"
+                                alt=""
+                                className="btn-img-2"
+                            />
+                        </div>
+                    </section>
+
+
+                    <NavLink
+                        to="/"
+                        className="a-btn a-btn-about"
                     >
-                        linkedin
-                    </a>
-                    <br />
-                    <a
-                        target="_blank"
-                        href="https://github.com/julien44830"
-                    >
-                        GitHub
-                    </a>
-                    <br />
-                    <a href="mailto:deniaudjulien0@gmail.com">
-                        deniaudjulien0@gmail.com
-                    </a>
-                </MouseParallaxChild>
+                        <div className="btn">
+                            <p>retour accueil</p>
+                            <img
+                                src="src/assets/images/icons-fleche-bas.png"
+                                alt=""
+                                className="btn-img-2"
+                            />
+                        </div>
+                    </NavLink>
+                </section>
                 <MouseParallaxChild
                     factorX={0.7}
                     factorY={0.8}
-                >
-                    <NavLink to="/">
-                        <p>retour accueil</p>
-                    </NavLink>
-                </MouseParallaxChild>
+                ></MouseParallaxChild>
             </MouseParallaxContainer>
         </>
     );
