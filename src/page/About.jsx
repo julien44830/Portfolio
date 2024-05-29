@@ -125,41 +125,41 @@ function About() {
 
                     <h2>Contact</h2>
 
-                    <section 
-                    className="contact-section">
+                    <section className="contact-section">
                         <a href="mailto:deniaudjulien0@gmail.com">
                             deniaudjulien0@gmail.com
                         </a>
 
-                        <div className="btn">
-                            <a
-                                target="_blank"
-                                href="https://www.linkedin.com/in/julien-deniaud-917610238/"
-                            >
-                                linkedin
-                            </a>
-                            <img
-                                src="src/assets/images/icons-fleche-bas.png"
-                                alt=""
-                                className="btn-img-2"
-                            />
-                        </div>
+                        <div className="contact-btn">
+                            <div className="btn">
+                                <a
+                                    target="_blank"
+                                    href="https://www.linkedin.com/in/julien-deniaud-917610238/"
+                                >
+                                    linkedin
+                                </a>
+                                <img
+                                    src="src/assets/images/icons-fleche-bas.png"
+                                    alt=""
+                                    className="btn-img-2"
+                                />
+                            </div>
 
-                        <div className="btn">
-                            <a
-                                target="_blank"
-                                href="https://github.com/julien44830"
-                            >
-                                GitHub
-                            </a>
-                            <img
-                                src="src/assets/images/icons-fleche-bas.png"
-                                alt=""
-                                className="btn-img-2"
-                            />
+                            <div className="btn">
+                                <a
+                                    target="_blank"
+                                    href="https://github.com/julien44830"
+                                >
+                                    GitHub
+                                </a>
+                                <img
+                                    src="src/assets/images/icons-fleche-bas.png"
+                                    alt=""
+                                    className="btn-img-2"
+                                />
+                            </div>
                         </div>
                     </section>
-
 
                     <NavLink
                         to="/"
