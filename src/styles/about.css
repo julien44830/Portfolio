@@ -26,5 +26,17 @@ th{
 
 .contact-section{
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+    gap: 20px;
+    
+}
+
+.contact-btn>.btn{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background-color: aliceblue;
+
 }
