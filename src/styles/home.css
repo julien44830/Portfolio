@@ -1,42 +1,60 @@
-.h1-home{
+.body-home {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.h1-home {
     position: relative;
     color: white;
     border-radius: 5px;
     padding: 20px;
     font-size: 50px;
     color: hsl(0, 0%, 28%);
-    font-size: 50px!important;
-    font-weight: bold!important;
+    font-size: 50px ;
+    font-weight: bold ;
     font-family: monospace;
-    letter-spacing: 7px!important;
+    letter-spacing: 7px ;
     text-transform: uppercase;
     padding: 64px;
-    background: linear-gradient(to right, hsl(0, 0%, 0%) 0, rgb(255, 165, 0), hsl(0, 0%, 0%) 20%);
+    background: linear-gradient(
+        to right,
+        hsl(0, 0%, 0%) 0,
+        rgb(255, 165, 0),
+        hsl(0, 0%, 0%) 20%
+    );
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     animation: shine 3s infinite linear;
-  }
+}
 
-  @keyframes shine {
+@keyframes shine {
     0% {
-      background-position: 0;
+        background-position: 0;
     }
     60% {
-      background-position: 700px;
+        background-position: 700px;
     }
     100% {
-      background-position: 100%;
+        background-position: 100%;
     }
-  }
+}
 
-.section-home{
+.section-home {
     display: flex;
     justify-content: center;
     align-items: end;
     margin-top: 150px;
+    width: 100%;
 }
 
-.p-text-home{
+.p-text-home {
     position: relative;
     color: white;
-  }
+}

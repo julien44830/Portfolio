@@ -1,6 +1,6 @@
 import { useLoaderData } from "react-router-dom";
 import { NavLink } from "react-router-dom";
-import "../styles/about.css";
+import "../styles/code-wars.css";
 function CodeWars() {
     const kata = useLoaderData();
 

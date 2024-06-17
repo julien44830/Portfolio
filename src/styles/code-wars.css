@@ -1,0 +1,22 @@
+
+.h1-code-wars{
+    padding: 30px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.active{
+    text-decoration: none;
+}
+
+table{
+    margin: auto ;
+    background-color: rgba(187, 38, 1, 0.726);
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+th{
+    padding: 10px;
+    text-align: start;
+}

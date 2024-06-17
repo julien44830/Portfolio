@@ -28,9 +28,10 @@ function Home() {
     return (
         <>
             {showText3D === true ? (
+                // Afficher le composant Text3D si showText3D est vrai
                 <Text3D />
             ) : (
-                <>
+                <div className="body-home">
                     <header className="header-home">
                         <h1 className="h1-home">
                             {"developpeur web fullStack"}
@@ -41,7 +42,7 @@ function Home() {
                         <TextHome />
                         <Stack />
                     </section>
-                </>
+                </div>
             )}
         </>
     );
