@@ -6,13 +6,13 @@ function CodeWars() {
 
     return (
         <>
-            <NavLink to="/">
+            <NavLink to="/" className="navlink-codewars">
                 <h1 className="h1-code-wars">CodeWars et moi</h1>
             </NavLink>
 
             <div className="container-table_codewars">
                 <table className="table-codewars">
-                    <caption>
+                    <caption className="titre-table-codewars">
                         Nombres de kata realisé sur CodeWars :{" "}
                         {kata.data.length}
                     </caption>
@@ -22,7 +22,7 @@ function CodeWars() {
                                 scope="col"
                                 className="th-codewars"
                             >
-                                realisé le
+                                Realisé le
                             </th>
                             <th
                                 scope="col"
@@ -58,13 +58,17 @@ function CodeWars() {
                             </tr>
                         </tbody>
                     ))}
-                    <tfoot>...en attente de resolution de Kata...</tfoot>
+                    <tfoot>
+                        <tr>
+                            <td>...en attente de resolution de Kata...</td>
+                        </tr>
+                    </tfoot>
                 </table>
             </div>
 
-            <section>
-                <p>donnée récupérée sur :</p>
+            <section className="section-donnee-codewars">
                 <p>
+                    Données récupérées sur :
                     https://www.codewars.com/api/v1/users/julien44830/code-challenges/completed?page=page
                 </p>
             </section>
@@ -72,7 +76,8 @@ function CodeWars() {
                 className="video_codewars"
                 src="src/assets/images/codewars-video.mp4"
                 autoPlay
-                loop="true"
+                // disablePictureInPicture
+                loop
             ></video>
         </>
     );

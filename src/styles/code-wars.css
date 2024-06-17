@@ -1,36 +1,49 @@
-
-.h1-code-wars{
+.h1-code-wars {
     padding: 30px;
     text-align: center;
+    color: white;
+    text-shadow: 3px 3px 3px black;
+}
+
+.navlink-codewars{
     text-decoration: none;
 }
 
-.active{
-    text-decoration: none;
+.titre-table-codewars {
+    color: white;
 }
 
-.container-table_codewars{
+.container-table_codewars {
+    cursor: url("src/assets/images/cursor.cur") 0 0, pointer ;
     margin: auto;
     height: 70vh;
     width: 900px;
     overflow: hidden;
     overflow-y: scroll;
     border-radius: 10px;
-
+    z-index: 1;
 }
 
-.table-codewars{
-    margin: auto ;
+.table-codewars {
+    margin: auto;
     background-color: rgba(90, 21, 3, 0.781);
-    border: 1px solid black;
     border-radius: 10px;
+    z-index: 5;
 }
 
-.th-codewars{
+.th-codewars {
     padding: 10px;
     text-align: start;
     font-weight: 200;
     color: white;
+}
+
+.section-donnee-codewars {
+    position: fixed;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.301);
+    color: white;
+    padding: 3px 10px 0 5px;
 }
 
 .video_codewars {
@@ -42,9 +55,6 @@
     bottom: 0;
     left: 0;
     object-fit: contain;
-    background-color: 
-  black;
-    /* background-image: "../assets/images/codewars-video.mp4"  Ici, notre vidéo; */
     background-position: center center;
     background-size: contain;
-  }
+}
