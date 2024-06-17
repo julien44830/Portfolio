@@ -2,7 +2,6 @@
     height: 100vh;
 }
 
-
 .parallax {
     z-index: -1;
 
@@ -41,21 +40,17 @@
     margin-left: 100px;
 }
 
-.a-propos {
-}
-
-
 /* CSS pour définir la structure et l'animation */
-body, html {
-    margin: 0;
-    padding: 0;
+
+/* body, html {
+
     width: 100%;
     height: 100%;
     overflow: hidden;
     display: flex;
     align-items: center;
     justify-content: center;
-  }
+  } */
   
   .page {
     width: 100%;
