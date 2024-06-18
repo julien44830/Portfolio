@@ -1,3 +1,9 @@
+.h1-about{
+    font-size: 3rem;
+    margin:0 0 50px  0;
+}
+
+
 .contact-section{
     display: flex;
     flex-direction: column;
@@ -7,10 +13,47 @@
     
 }
 
+.contact-btn{
+    display: flex;
+    /* flex-direction: row; */
+    gap: 50px;;
+}
+
 .contact-btn>.btn{
     display: flex;
+    flex-direction: row;
     justify-content: center;
     gap: 20px;
     background-color: aliceblue;
-
 }
+
+.a-propos-section {
+    background-color: rgba(0, 0, 0, 0.212);
+    width: 1000px;
+    padding: 80px;
+    border-radius: 15px;
+    color: white;
+    z-index: 2;
+    margin: auto;
+    margin-top: 100px;
+    overflow-y: scroll;
+    height: 80vh;
+}
+
+.h2-about{
+    margin:20px;
+    margin-top: 60px;
+    text-align: center;
+    /* margin-top:50px; */
+}
+
+.ul-li-about{
+    margin-left: 100px;
+}
+
+.h3-about{
+    margin:10px;
+    margin-top: 20px;
+}
+
+

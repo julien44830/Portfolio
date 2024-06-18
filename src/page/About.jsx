@@ -26,13 +26,13 @@ function About() {
                     ></MouseParallaxChild>
 
                     <MouseParallaxChild
-                        factorX={0.7}
-                        factorY={0.2}
+                        factorX={2}
+                        factorY={4}
                         className="parallax-black-hole"
                     ></MouseParallaxChild>
 
                     <section className="a-propos-section">
-                        <h1>À propos de moi</h1>
+                        <h1 className="h1-about">À propos de moi</h1>
 
                         <p>
                             Bonjour, je m&apos;appelle Julien et je suis
@@ -46,7 +46,7 @@ function About() {
                             de données avec MySQL et SQL.
                         </p>
 
-                        <h2>Parcours et formation</h2>
+                        <h2 className="h2-about">Parcours et formation</h2>
                         <p>
                             Avant de me lancer dans le développement web, j'ai
                             travaillé comme plâtrier-plaquiste. Cette expérience
@@ -57,8 +57,8 @@ function About() {
                             d'apprendre et de s'adapter.
                         </p>
 
-                        <h2>Compétences techniques</h2>
-                        <ul>
+                        <h2 className="h2-about">Compétences techniques</h2>
+                        <ul className="ul-li-about">
                             <li>JavaScript</li>
                             <li>React</li>
                             <li>Express</li>
@@ -68,23 +68,23 @@ function About() {
                             <li>MySQL/SQL</li>
                         </ul>
 
-                        <h2>Projets personnels et académiques</h2>
+                        <h2 className="h2-about">Projets personnels et académiques</h2>
                         <p>
                             Au cours de ma formation à la Wild Code School, j'ai
                             travaillé sur plusieurs projets, dont deux projets
                             de groupe :
                         </p>
 
-                        <ul>
+                        <ul className="ul-about">
                             <li>
-                                <h3>H2overflow :</h3>
+                                <h3 className="h3-about">H2overflow :</h3>
                                 <p>
                                     Une application qui répertorie les nappes
                                     phréatiques de France, développée en React.
                                 </p>
                             </li>
                             <li>
-                                <h3>Carte Venture :</h3>
+                                <h3 className="h3-about">Carte Venture :</h3>
                                 <p>
                                     Un site de création de cartes postales en
                                     React.
@@ -100,7 +100,7 @@ function About() {
                             design.
                         </p>
 
-                        <h2>Projets Codewars</h2>
+                        <h2 className="h2-about">Projets Codewars</h2>
                         <p>
                             Pour améliorer mes compétences en algorithmes et en
                             résolution de problèmes, je suis actif sur Codewars.
@@ -111,7 +111,7 @@ function About() {
                             <button>code Wars</button>
                         </NavLink>
 
-                        <h2>Objectifs professionnels</h2>
+                        <h2 className="h2-about" >Objectifs professionnels</h2>
                         <p>
                             Je suis actuellement inscrit à une formation en
                             alternance pour apprendre Java et Angular, avec pour
@@ -122,7 +122,7 @@ function About() {
                             en étroite collaboration avec mes collègues.
                         </p>
 
-                        <h2>Passions et intérêts</h2>
+                        <h2 className="h2-about">Passions et intérêts</h2>
                         <p>
                             Je suis passionné par l'astronomie, un domaine qui
                             m'émerveille par ses mystères et ses découvertes.
@@ -133,7 +133,7 @@ function About() {
                             connaissances à acquérir.
                         </p>
 
-                        <h2>Contact</h2>
+                        <h2 className="h2-about">Contact</h2>
 
                         <section className="contact-section">
                             <a href="mailto:deniaudjulien0@gmail.com">
