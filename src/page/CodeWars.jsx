@@ -6,9 +6,7 @@ function CodeWars() {
 
     return (
         <>
-            <NavLink to="/" className="navlink-codewars">
-                <h1 className="h1-code-wars">CodeWars et moi</h1>
-            </NavLink>
+            <h1 className="h1-code-wars">CodeWars et moi</h1>
 
             <div className="container-table_codewars">
                 <table className="table-codewars">
@@ -72,6 +70,9 @@ function CodeWars() {
                     https://www.codewars.com/api/v1/users/julien44830/code-challenges/completed?page=page
                 </p>
             </section>
+            <NavLink to="/">
+                <span className="span-codewars">retour accueil</span>
+            </NavLink>
             <video
                 className="video_codewars"
                 src="src/assets/images/codewars-video.mp4"

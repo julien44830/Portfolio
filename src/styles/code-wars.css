@@ -5,7 +5,7 @@
     text-shadow: 3px 3px 3px black;
 }
 
-.navlink-codewars{
+.navlink-codewars {
     text-decoration: none;
 }
 
@@ -14,7 +14,7 @@
 }
 
 .container-table_codewars {
-    cursor: url("src/assets/images/cursor.cur") 0 0, pointer ;
+    cursor: url("src/assets/images/cursor.cur") 0 0, pointer;
     margin: auto;
     height: 70vh;
     width: 900px;
@@ -41,10 +41,29 @@
 .section-donnee-codewars {
     position: fixed;
     bottom: 0;
-    background-color: rgba(0, 0, 0, 0.301);
+    /* background-color: rgba(0, 0, 0, 0.301); */
     color: white;
     padding: 3px 10px 0 5px;
 }
+
+.span-codewars {
+    position: fixed;
+    top: 50vh;
+    left: 5vw;
+    font-size: 1.5rem;
+    padding: 4px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    text-decoration: none;
+    color: white;
+    border-radius: 15px;
+    border-radius: inherit;
+    animation:  retour 800ms ease;
+}
+
+
+
+
 
 .video_codewars {
     z-index: -1;
@@ -58,3 +77,21 @@
     background-position: center center;
     background-size: contain;
 }
+
+@keyframes retour {
+    0% {
+        transform: translateY(500px);
+        color: rgba(255, 255, 255, 0);
+    }
+    
+    70%{
+        transform: translateY(50px);
+        color: rgba(255, 255, 255, 0);
+    }
+
+    100% {
+        color: white;
+        transform: translateY(0);
+    }
+}
+
