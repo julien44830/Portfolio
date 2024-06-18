@@ -105,11 +105,12 @@ function About() {
                             Pour améliorer mes compétences en algorithmes et en
                             résolution de problèmes, je suis actif sur Codewars.
                             Voici quelques exemples de mes défis résolus ici
-                        </p>
+                        
 
-                        <NavLink to="/codewars">
-                            <button>code Wars</button>
+                        <NavLink to="/codewars" className="btn-to-codewars">
+                            <button className="btn-to-codewars">code Wars</button>
                         </NavLink>
+                        </p>
 
                         <h2 className="h2-about" >Objectifs professionnels</h2>
                         <p>
