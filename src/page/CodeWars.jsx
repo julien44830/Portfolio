@@ -3,6 +3,9 @@ import { NavLink } from "react-router-dom";
 import "../styles/code-wars.css";
 function CodeWars() {
     const kata = useLoaderData();
+    console.log('%c⧭', 'color: #00e600', kata.data.length);
+    const ts = "typescript"
+
 
     return (
         <>
@@ -36,7 +39,7 @@ function CodeWars() {
                             </th>
                         </tr>
                     </thead>
-
+ 
                     {kata.data.map((e, index) => (
                         <tbody key={index}>
                             <tr>
@@ -49,8 +52,14 @@ function CodeWars() {
                                         e.completedAt
                                     ).toLocaleTimeString()}{" "}
                                 </th>
-                                <th className="th-codewars">
-                                    {e.completedLanguages}
+                                <th
+                                    className={
+                                        e.completedLanguages.includes(ts) 
+                                            ? "th-codewars ts"
+                                            : "th-codewars js"
+                                    }
+                                >
+                                {`   ${e.completedLanguages}  ` }
                                 </th>
                                 <th className="th-codewars">{`=> ${e.name}`}</th>
                             </tr>

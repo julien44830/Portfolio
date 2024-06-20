@@ -38,6 +38,14 @@
     color: white;
 }
 
+.js{
+    color:yellow;
+}
+
+.ts{
+    color: rgb(2, 196, 255);
+}
+
 .section-donnee-codewars {
     position: fixed;
     bottom: 0;
