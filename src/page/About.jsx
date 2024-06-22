@@ -179,7 +179,7 @@ function About() {
                             <div className="btn">
                                 <p>retour accueil</p>
                                 <img
-                                    src="./src/assets/images/icons-fleche-bas.png"
+                                    src="../src/assets/images/icons-fleche-bas.png"
                                     alt=""
                                     className="btn-img-2"
                                 />
