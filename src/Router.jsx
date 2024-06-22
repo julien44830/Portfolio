@@ -5,6 +5,7 @@ import Text3D from "./compoments/Text3D";
 import Projet from "./page/Projet";
 import About from "./page/About";
 import CodeWars from "./page/CodeWars";
+import FactoryPage from "./page/FactoryPage";
 import App from "./App";
 
 const router = createBrowserRouter([
@@ -26,7 +27,7 @@ const router = createBrowserRouter([
             },
             {
                 path: "projet",
-                element: <Projet />,
+                element: <FactoryPage />,
             },
             {
                 path: "about",
