@@ -49,7 +49,6 @@
 .section-donnee-codewars {
     position: fixed;
     bottom: 0;
-    /* background-color: rgba(0, 0, 0, 0.301); */
     color: white;
     padding: 3px 10px 0 5px;
 }
