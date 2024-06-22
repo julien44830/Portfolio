@@ -13,7 +13,7 @@ function FactoryPage() {
             <section className="section-multimedia-factrory-page">
                 <video
                     className="video-factory-page"
-                    src="./public/images/construction_page_construction.mp4"
+                    src="/images/construction_page_construction.mp4"
                     type="video/mp4"
                     loop
                     autoPlay
@@ -22,7 +22,7 @@ function FactoryPage() {
                 <div className="container-img-factory-page">
                     <img
                         className="img-factory-page"
-                        src="./public/images/coding_man.gif"
+                        src="/images/coding_man.gif"
                         alt="je construit cette page "
                     />
                 </div>

@@ -150,7 +150,7 @@ function About() {
                                         linkedin
                                     </a>
                                     <img
-                                        src="src/assets/images/icons-fleche-bas.png"
+                                        src="/images/icons-fleche-bas.png"
                                         alt=""
                                         className="btn-img-2"
                                     />
@@ -164,7 +164,7 @@ function About() {
                                         GitHub
                                     </a>
                                     <img
-                                        src="src/assets/images/icons-fleche-bas.png"
+                                        src="/images/icons-fleche-bas.png"
                                         alt=""
                                         className="btn-img-2"
                                     />
@@ -179,7 +179,7 @@ function About() {
                             <div className="btn">
                                 <p>retour accueil</p>
                                 <img
-                                    src="./assets/images/icons-fleche-bas.png"
+                                    src="/images/icons-fleche-bas.png"
                                     alt=""
                                     className="btn-img-2"
                                 />
