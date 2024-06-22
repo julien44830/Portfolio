@@ -84,7 +84,7 @@ function CodeWars() {
             </NavLink>
             <video
                 className="video_codewars"
-                src="src/assets/images/codewars-video.mp4"
+                src="./public/images/codewars-video.mp4"
                 autoPlay
                 // disablePictureInPicture
                 loop

@@ -14,7 +14,7 @@
 }
 
 .container-table_codewars {
-    cursor: url("src/assets/images/cursor.cur") 0 0, pointer;
+    cursor: url("./public/images/cursor.cur") 0 0, pointer;
     margin: auto;
     height: 70vh;
     width: 900px;
