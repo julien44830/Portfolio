@@ -13,7 +13,7 @@ function FactoryPage() {
             <section className="section-multimedia-factrory-page">
                 <video
                     className="video-factory-page"
-                    src="../src/assets/images/construction_page_construction.mp4"
+                    src="../assets/images/construction_page_construction.mp4"
                     type="video/mp4"
                     loop
                     autoPlay
