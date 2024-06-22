@@ -86,7 +86,6 @@ function CodeWars() {
                 className="video_codewars"
                 src="/images/codewars-video.mp4"
                 autoPlay
-                // disablePictureInPicture
                 loop
             ></video>
         </>
