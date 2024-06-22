@@ -24,7 +24,7 @@ function ButtonNav() {
                 <div className="btn">
                     <p>tout sur moi</p>
                     <img
-                        src="/images/icons-fleche-bas.png"
+                        src="../assets/images/icons-fleche-bas.png"
                         alt=""
                         className="btn-img-2"
                     />
