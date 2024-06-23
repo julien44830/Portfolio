@@ -28,8 +28,8 @@
         hsl(0, 0%, 0%) 20%
     );
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    animation: shine 3s infinite linear;
+    -webkit-text-fill-color: rgba(255, 166, 0, 0.473);
+    animation: shine 5s infinite linear;
 }
 
 @keyframes shine {
