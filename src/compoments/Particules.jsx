@@ -80,7 +80,7 @@ const Particules = () => {
                         mode: "delete",
                         value: 100, // *suprime au dela de ....
                     },
-                    value: 80, // *nombre de particules
+                    value: 20, // *nombre de particules
                 },
                 opacity: {
                     value: {
