@@ -18,13 +18,13 @@ const Stack = () => {
                 wrapper="h2"
                 speed={10}
                 deletionSpeed={90}
-                style={{ 
-                    fontSize: "1.4em", 
-                    display: "block",
-                    whiteSpace: 'pre-line', 
-                }}
+                // style={{ 
+                //     fontSize: "1.4em", 
+                //     display: "block",
+                //     whiteSpace: 'pre-line', 
+                // }}
                 repeat={Infinity}
-                className={"stack"}
+                className={"stack"}  
             />
         </div>
     );

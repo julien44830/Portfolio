@@ -12,11 +12,23 @@
     letter-spacing: 7px;
     backdrop-filter: blur(5px);
     text-align: start;
+    font-size: 1.4em;
+    display: block;
+    white-space: pre-line; 
 }
 
 .container-stack {
     position: relative;
     display: flex;
     justify-content: center;
+}
 
+@media (max-width: 380px) {
+    .stack {
+        width: 100vw;
+        height: 115PX;
+        margin: 0;
+        justify-content: start;
+        font-size: 0.5em;
+    }
 }

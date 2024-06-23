@@ -72,3 +72,23 @@
         transform: translatey(0px);
     }
 }
+
+
+@media (max-width: 380px) {
+    .section-btn {
+        gap: 5px;
+        justify-content: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .btn{
+        width: 100px;
+        height: 30px;
+    }
+
+    .btn > p {
+        font-size: 0.5rem;
+    }
+
+}

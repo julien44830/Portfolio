@@ -18,11 +18,11 @@ function TextHome() {
                         ]}
                         wrapper="h2"
                         speed={80}
-                        style={{
-                            fontSize: "1.2em",
-                            display: "inline",
-                            whiteSpace: "pre-line",
-                        }}
+                        // style={{
+                        //     fontSize: "1.2em",
+                        //     display: "inline",
+                        //     whiteSpace: "pre-line",
+                        // }}
                         className={"h2-text-home h2-1"}
                     />
                     <TypeAnimation
@@ -31,11 +31,11 @@ function TextHome() {
                         sequence={[1200, "", " MINGW64 ", 2000]}
                         wrapper="h2"
                         speed={80}
-                        style={{
-                            fontSize: "1.2em",
-                            display: "inline",
-                            whiteSpace: "pre-line",
-                        }}
+                        // style={{
+                        //     fontSize: "1.2em",
+                        //     display: "inline",
+                        //     whiteSpace: "pre-line",
+                        // }}
                         className={"h2-text-home h2-2"}
                     />
                     <TypeAnimation
@@ -51,11 +51,11 @@ function TextHome() {
                         ]}
                         wrapper="h2"
                         speed={80}
-                        style={{
-                            fontSize: "1.2em",
-                            display: "inline",
-                            whiteSpace: "pre-line",
-                        }}
+                        // style={{
+                        //     fontSize: "1.2em",
+                        //     display: "inline",
+                        //     whiteSpace: "pre-line",
+                        // }}
                         className={"h2-text-home h2-3"}
                     />
                 </div>
@@ -70,11 +70,11 @@ function TextHome() {
                     ]}
                     wrapper="p"
                     speed={80}
-                    style={{
-                        fontSize: "1.2em",
-                        display: "block",
-                        whiteSpace: "pre-line",
-                    }}
+                    // style={{
+                    //     fontSize: "1.2em",
+                    //     display: "block",
+                    //     whiteSpace: "pre-line",
+                    // }}
                     className={"p-text-home"}
                 />
             </article>
