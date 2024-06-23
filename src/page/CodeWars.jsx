@@ -8,7 +8,7 @@ function CodeWars() {
 
 
     return (
-        <>
+        <section className="page-codewars">
             <h1 className="h1-code-wars">CodeWars et moi</h1>
 
             <div className="container-table_codewars">
@@ -88,7 +88,7 @@ function CodeWars() {
                 autoPlay
                 loop
             ></video>
-        </>
+        </section>
     );
 }
 
