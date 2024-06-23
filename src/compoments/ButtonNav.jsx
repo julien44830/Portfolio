@@ -5,7 +5,7 @@ function ButtonNav() {
     return (
         <section className="section-btn">
             <NavLink
-                to="/projet"
+                to="/projet" 
                 className="a-btn"
             >
                 <div className="btn">
