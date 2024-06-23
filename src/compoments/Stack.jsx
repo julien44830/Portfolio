@@ -10,7 +10,7 @@ const Stack = () => {
                     1000,
                     "Front-end \n \n Html/CSS \n JavaScript \n React \n Vite Js \n Type-Script",
                     4000,
-                    "Back-end \n \n Node \n Express",
+                    "Back-end \n \n Node \n Express \n SQL \n My SQL \n Maria DB",
                     4000,
                     "\n\nGit \n gitHub",
                     4000,
