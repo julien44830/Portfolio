@@ -31,7 +31,7 @@ const Particules = () => {
             autoPlay: true,
             background: {
                 color: {
-                    value: "#555",
+                    value: "#04053b",
                 },
                 image: "",
                 position: "",
