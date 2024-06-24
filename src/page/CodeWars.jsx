@@ -72,6 +72,9 @@ function CodeWars() {
                     </tfoot>
                 </table>
             </div>
+            <NavLink to="/" className="span-codewars">
+                <span >retour accueil</span>
+            </NavLink>
 
             <section className="section-donnee-codewars">
                 <p>
@@ -79,9 +82,6 @@ function CodeWars() {
                     https://www.codewars.com/api/v1/users/julien44830/code-challenges/completed?page=page
                 </p>
             </section>
-            <NavLink to="/">
-                <span className="span-codewars">retour accueil</span>
-            </NavLink>
             <video
                 className="video_codewars"
                 src="/images/codewars-video.mp4"
