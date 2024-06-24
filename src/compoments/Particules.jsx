@@ -30,13 +30,10 @@ const Particules = () => {
         () => ({
             autoPlay: true,
             background: {
-                color: {
-                    value: "#04053b",
-                },
                 image: "",
                 position: "",
                 repeat: "",
-                size: "",
+                size: "100vh",
                 opacity: 1,
             },
             detectRetina: true,
@@ -143,6 +140,8 @@ const Particules = () => {
                 id="tsparticles"
                 particlesLoaded={particlesLoaded}
                 options={options}
+                className="particles"
+
             />
         );
     }
