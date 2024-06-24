@@ -30,9 +30,6 @@ const Particules = () => {
         () => ({
             autoPlay: true,
             background: {
-                color: {
-                    value: "#04053b",
-                },
                 image: "",
                 position: "",
                 repeat: "",
@@ -143,6 +140,8 @@ const Particules = () => {
                 id="tsparticles"
                 particlesLoaded={particlesLoaded}
                 options={options}
+                className="particles"
+
             />
         );
     }
