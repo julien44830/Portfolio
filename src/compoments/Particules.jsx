@@ -33,7 +33,7 @@ const Particules = () => {
                 image: "",
                 position: "",
                 repeat: "",
-                size: "100vh",
+                size: "",
                 opacity: 1,
             },
             detectRetina: true,
