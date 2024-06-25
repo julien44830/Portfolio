@@ -12,7 +12,7 @@
     text-align: center;
     color: white;
     text-shadow: 3px 3px 3px black;
-    width: 175px;
+    width: 180px;
     margin-top:10px
 }
 
@@ -83,11 +83,9 @@
 .video_codewars {
     z-index: -1;
     position: fixed;
-
     object-fit: contain;
-    /* height: 100vh; */
+    min-height: 100vh;
     min-width:100Vw;
-    height: 100vh;;
     top: 0;
     right: 0;
     bottom: 0;
@@ -117,7 +115,6 @@
 @media (max-width: 400px) {
     .h1-code-wars{
         position: absolute;
-        /* width: 100vw; */
 
     }
 
