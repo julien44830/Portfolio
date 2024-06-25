@@ -91,12 +91,12 @@ function About() {
                                 </p>
                             </li>
                         </ul>
-
+                        <br/>
                         <p>
                             En dehors de ces projets académiques, j'ai commencé
                             à coder un site web en JavaScript Vanilla avant ma
                             formation, que je prévois de refaire entièrement en
-                            React pour améliorer ses fonctionnalités et son
+                            React Typescript pour améliorer ses fonctionnalités, sa maintenabilité et son
                             design.
                         </p>
 

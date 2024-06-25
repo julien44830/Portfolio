@@ -27,19 +27,18 @@
 }
 
 .h2-text-home {
-        font-size: 1.2em;
+    font-size: 1.2em;
         display: inline;
         white-space: pre-line;
 
-    font-size: 2rem;
     text-align: start;
 }
 
 .h2-1 {
-    color: green;
+    color: rgb(41, 221, 41);
 }
 .h2-2 {
-    color: purple;
+    color: rgb(227, 1, 247);
 }
 .h2-3 {
     color: yellow;

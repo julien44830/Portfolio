@@ -3,13 +3,14 @@ import { NavLink } from "react-router-dom";
 import "../styles/code-wars.css";
 function CodeWars() {
     const kata = useLoaderData();
-    console.log('%c⧭', 'color: #00e600', kata.data.length);
-    const ts = "typescript"
-
+    console.log("%c⧭", "color: #00e600", kata.data.length);
+    const ts = "typescript";
 
     return (
-        <>
-            <h1 className="h1-code-wars">CodeWars et moi</h1>
+        <section className="page-codewars">
+            <div className="div-h1">
+                <h1 className="h1-code-wars">CodeWars et moi</h1>
+            </div>
 
             <div className="container-table_codewars">
                 <table className="table-codewars">
@@ -39,7 +40,7 @@ function CodeWars() {
                             </th>
                         </tr>
                     </thead>
- 
+
                     {kata.data.map((e, index) => (
                         <tbody key={index}>
                             <tr>
@@ -54,12 +55,12 @@ function CodeWars() {
                                 </th>
                                 <th
                                     className={
-                                        e.completedLanguages.includes(ts) 
+                                        e.completedLanguages.includes(ts)
                                             ? "th-codewars ts"
                                             : "th-codewars js"
                                     }
                                 >
-                                {`   ${e.completedLanguages}  ` }
+                                    {`   ${e.completedLanguages}  `}
                                 </th>
                                 <th className="th-codewars">{`=> ${e.name}`}</th>
                             </tr>
@@ -72,6 +73,12 @@ function CodeWars() {
                     </tfoot>
                 </table>
             </div>
+            <NavLink
+                to="/"
+                className="span-codewars"
+            >
+                <span>retour accueil</span>
+            </NavLink>
 
             <section className="section-donnee-codewars">
                 <p>
@@ -79,16 +86,13 @@ function CodeWars() {
                     https://www.codewars.com/api/v1/users/julien44830/code-challenges/completed?page=page
                 </p>
             </section>
-            <NavLink to="/">
-                <span className="span-codewars">retour accueil</span>
-            </NavLink>
             <video
                 className="video_codewars"
                 src="/images/codewars-video.mp4"
                 autoPlay
                 loop
             ></video>
-        </>
+        </section>
     );
 }
 

@@ -1,8 +1,19 @@
+.div-h1{
+    margin-top:10px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
 .h1-code-wars {
-    padding: 30px;
+    padding: 5px;
+    background-color: rgba(90, 21, 3, 0.781);
+    border-radius: 10px;
     text-align: center;
     color: white;
     text-shadow: 3px 3px 3px black;
+    width: 200px;
+    margin-top:10px
 }
 
 .navlink-codewars {
@@ -16,6 +27,7 @@
 .container-table_codewars {
     cursor: url("/images/cursor.cur") 0 0, pointer;
     margin: auto;
+    margin-top: 75px;
     height: 70vh;
     width: 900px;
     overflow: hidden;
@@ -38,18 +50,18 @@
     color: white;
 }
 
-.js{
-    color:yellow;
+.js {
+    color: yellow;
 }
 
-.ts{
+.ts {
     color: rgb(2, 196, 255);
 }
 
 .section-donnee-codewars {
     position: fixed;
     bottom: 0;
-    color: white;
+    color: rgba(253, 253, 5, 0.986);
     padding: 3px 10px 0 5px;
 }
 
@@ -65,13 +77,15 @@
     color: white;
     border-radius: 15px;
     border-radius: inherit;
-    animation:  retour 800ms ease;
+    animation: retour 800ms ease;
 }
 
 .video_codewars {
     z-index: -1;
     position: fixed;
-    width: 100%;
+    object-fit: contain;
+    min-height: 100vh;
+    min-width:100Vw;
     top: 0;
     right: 0;
     bottom: 0;
@@ -86,8 +100,8 @@
         transform: translateY(500px);
         color: rgba(255, 255, 255, 0);
     }
-    
-    70%{
+
+    70% {
         transform: translateY(50px);
         color: rgba(255, 255, 255, 0);
     }
@@ -98,3 +112,42 @@
     }
 }
 
+@media (max-width: 400px) {
+    .h1-code-wars{
+        position: absolute;
+
+    }
+
+    .container-table_codewars{
+        margin-top: 75px;
+        padding: 20px;
+        height: 60vh;
+    }
+
+    .page-codewars {
+        overflow-y: hidden;
+        /* overflow-x: scroll; */
+
+    }
+
+    .video_codewars {
+        object-fit: cover;
+        height: 100vh;
+    }
+
+    .span-codewars {
+        width: 100vw;
+        position: fixed;
+        text-align: center;
+        top: 75vh;
+        font-size: 1.5rem;
+        padding: 4px;
+        letter-spacing: 1px;
+        font-weight: 600;
+        text-decoration: none;
+        color: white;
+        border-radius: 15px;
+        border-radius: inherit;
+        animation: retour 800ms ease;
+    }
+}

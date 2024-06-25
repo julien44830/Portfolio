@@ -30,9 +30,6 @@ const Particules = () => {
         () => ({
             autoPlay: true,
             background: {
-                color: {
-                    value: "#555",
-                },
                 image: "",
                 position: "",
                 repeat: "",
@@ -80,7 +77,7 @@ const Particules = () => {
                         mode: "delete",
                         value: 100, // *suprime au dela de ....
                     },
-                    value: 80, // *nombre de particules
+                    value: 20, // *nombre de particules
                 },
                 opacity: {
                     value: {
@@ -143,6 +140,8 @@ const Particules = () => {
                 id="tsparticles"
                 particlesLoaded={particlesLoaded}
                 options={options}
+                className="particles"
+
             />
         );
     }
