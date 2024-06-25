@@ -59,13 +59,13 @@
     margin-left: 5px;
 }
 
-@media (max-width: 380px) {
+@media (max-width: 480px) {
     .h1-about {
         font-size: 2rem;
     }
 
     .a-propos-section {
-        width: 300px;
+        width: 90vw;
         padding: 0 5px 0 10px;
         margin-top: 30px;
         height: 90vh;
