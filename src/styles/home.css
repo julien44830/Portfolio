@@ -66,8 +66,7 @@
     position: fixed;
 }
 
-
-@media (max-width: 400px) {
+@media (max-width: 480px) {
     .h1-home {
         font-size: 25px;
         text-justify: distribute;

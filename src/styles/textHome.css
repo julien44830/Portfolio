@@ -52,7 +52,7 @@
     white-space: pre-line;
 }
 
-@media (max-width: 380px) {
+@media (max-width:480px) {
     .section-text-home {
         width: 100vw;
         height: 300PX;
