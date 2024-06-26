@@ -58,6 +58,14 @@
     color: white;
 }
 
+.particles{
+    background: linear-gradient(243deg, #100075 10.97%, #480101 79.48%);
+    width: 100vw;
+    height: 100vh; /* ou une autre hauteur selon vos besoins */
+    bottom: 0;
+    position: fixed;
+}
+
 @media (max-width: 480px) {
     .h1-home {
         font-size: 25px;
