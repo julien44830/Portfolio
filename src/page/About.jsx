@@ -45,6 +45,14 @@ function About() {
                             J&apos;ai également acquis des compétences en bases
                             de données avec MySQL et SQL.
                         </p>
+                        <br />
+                        <p>
+                            En dehors de ces projets académiques, j'ai commencé
+                            à coder un site web en JavaScript Vanilla avant ma
+                            formation, que je prévois de refaire entièrement en
+                            React Typescript pour améliorer ses fonctionnalités,
+                            sa maintenabilité et son design.
+                        </p>
 
                         <h2 className="h2-about">Parcours et formation</h2>
                         <p>
@@ -68,51 +76,25 @@ function About() {
                             <li>MySQL/SQL</li>
                         </ul>
 
-                        <h2 className="h2-about">Projets personnels et académiques</h2>
-                        <p>
-                            Au cours de ma formation à la Wild Code School, j'ai
-                            travaillé sur plusieurs projets, dont deux projets
-                            de groupe :
-                        </p>
-
-                        <ul className="ul-about">
-                            <li>
-                                <h3 className="h3-about">H2overflow :</h3>
-                                <p>
-                                    Une application qui répertorie les nappes
-                                    phréatiques de France, développée en React.
-                                </p>
-                            </li>
-                            <li>
-                                <h3 className="h3-about">Carte Venture :</h3>
-                                <p>
-                                    Un site de création de cartes postales en
-                                    React.
-                                </p>
-                            </li>
-                        </ul>
-                        <br/>
-                        <p>
-                            En dehors de ces projets académiques, j'ai commencé
-                            à coder un site web en JavaScript Vanilla avant ma
-                            formation, que je prévois de refaire entièrement en
-                            React Typescript pour améliorer ses fonctionnalités, sa maintenabilité et son
-                            design.
-                        </p>
+                        <br />
 
                         <h2 className="h2-about">Projets Codewars</h2>
                         <p>
                             Pour améliorer mes compétences en algorithmes et en
                             résolution de problèmes, je suis actif sur Codewars.
-                            Voici quelques exemples de mes défis résolus ici
-                        
-
-                        <NavLink to="/codewars" className="btn-to-codewars">
-                            <button className="btn-to-codewars">code Wars</button>
-                        </NavLink>
+                            Voici quelques exemples de mes défis résolus ici :
                         </p>
 
-                        <h2 className="h2-about" >Objectifs professionnels</h2>
+                        <div className="btn-to-codewars">
+                            <NavLink
+                                to="/codewars"
+                                className="btn-to-codewars"
+                            >
+                                code Wars
+                            </NavLink>
+                        </div>
+
+                        <h2 className="h2-about">Objectifs professionnels</h2>
                         <p>
                             Je suis actuellement inscrit à une formation en
                             alternance pour apprendre Java et Angular, avec pour
