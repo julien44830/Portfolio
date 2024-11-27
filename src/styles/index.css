@@ -1,17 +1,16 @@
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-body{
-  height: 100vh;
-  font-family: monospace;
+body {
+    height: 100dvh;
+    font-family: monospace;
 }
 
-#tsparticles{
-  background-color: black;
-  z-index: -1;
-  position: absolute;
+#tsparticles {
+    background-color: black;
+    z-index: -1;
+    position: absolute;
 }
-
