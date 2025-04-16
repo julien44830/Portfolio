@@ -1,14 +1,37 @@
 import { NavLink } from "react-router-dom";
-import H2overflow from "../compoments/H2oveflow";
+import CardProjet from "../compoments/CardProjet";
+import ModalProjet from "../compoments/ModalProjet";
+import projets from "../data/projet";
+import { useState } from "react";
 
 function Projet() {
+    const [modalProjet, setModalProjet] = useState(null);
     return (
-        <>
-            <NavLink to="/">
-                <h1>coucou projet</h1>
+        <div className="container-projet">
+            <NavLink
+                to="/"
+                className="btn"
+            >
+                <p>retour à l&apos;accueil</p>
             </NavLink>
-            <H2overflow />
-        </>
+            <h1>Mes projets</h1>
+            <section className="section-projet">
+                {projets.map((projet, index) => (
+                    <CardProjet
+                        key={index}
+                        projet={projet}
+                        onClick={() => {
+                            console.log("Projet cliqué :", projet); // ← ici le console.log
+                            setModalProjet(projet);
+                        }}
+                    />
+                ))}
+            </section>
+            <ModalProjet
+                projet={modalProjet}
+                onClose={() => setModalProjet(null)}
+            />
+        </div>
     );
 }
 

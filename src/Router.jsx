@@ -30,15 +30,20 @@ const router = createBrowserRouter([
                 element: <FactoryPage />,
             },
             {
+                path: "projetdev",
+                element: <Projet />,
+            },
+            {
                 path: "about",
                 element: <About />,
-                
             },
             {
                 path: "codewars",
                 element: <CodeWars />,
                 loader: () =>
-                    fetch("https://www.codewars.com/api/v1/users/julien44830/code-challenges/completed?page={page}"),
+                    fetch(
+                        "https://www.codewars.com/api/v1/users/julien44830/code-challenges/completed?page={page}"
+                    ),
             },
         ],
         errorElement: <h1>not found</h1>,

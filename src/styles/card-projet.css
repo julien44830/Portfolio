@@ -1,0 +1,47 @@
+.cardProjet {
+    width: 320px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin: 1rem;
+    text-align: center;
+}
+
+.cardProjet:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgb(255, 255, 255);
+}
+
+.cardProjet img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-bottom: 1px solid #eee;
+}
+
+.cardProjet h2 {
+    font-size: 1.3rem;
+    margin: 1rem 0 0.5rem;
+    color: #333;
+}
+
+.cardProjet p {
+    font-size: 0.95rem;
+    color: #666;
+    margin: 0 1rem 1rem;
+}
+
+.cardProjet a {
+    display: inline-block;
+    margin-bottom: 1rem;
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.2s ease;
+}
+
+.cardProjet a:hover {
+    color: #0056b3;
+}

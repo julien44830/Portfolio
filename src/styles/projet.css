@@ -1,0 +1,37 @@
+.container-projet {
+    width: 100vw;
+    min-height: 100vh;
+    background-color: rgb(81, 79, 79);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+    padding: 20px;
+
+    h1 {
+        padding: 20px;
+        font-size: 50px;
+        font-weight: bold;
+        font-family: monospace;
+        letter-spacing: 7px;
+        text-transform: uppercase;
+        color: white;
+    }
+}
+
+.btn-return-projet {
+    text-decoration: none;
+    position: relative;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+}
+
+.section-projet {
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    overflow-x: hidden;
+}
