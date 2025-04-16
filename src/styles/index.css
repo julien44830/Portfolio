@@ -1,3 +1,7 @@
+@import "./card-projet.css";
+@import "./projet.css";
+@import "./modal-projet.css";
+
 * {
     margin: 0;
     padding: 0;

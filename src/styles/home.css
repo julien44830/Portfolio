@@ -16,7 +16,6 @@
     border-radius: 5px;
     padding: 20px;
     font-size: 50px;
-    font-size: 50px;
     font-weight: bold;
     font-family: monospace;
     letter-spacing: 7px;
@@ -58,7 +57,7 @@
     color: white;
 }
 
-.particles{
+.particles {
     background: linear-gradient(243deg, #100075 10.97%, #480101 79.48%);
     width: 100vw;
     height: 100vh; /* ou une autre hauteur selon vos besoins */
@@ -72,7 +71,6 @@
         text-justify: distribute;
         text-align: center;
         padding: 30px;
-
     }
 
     .section-home {
