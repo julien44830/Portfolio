@@ -25,12 +25,12 @@ const router = createBrowserRouter([
                 path: "3D",
                 element: <Text3D />,
             },
+            // {
+            //     path: "projet",
+            //     element: <FactoryPage />,
+            // },
             {
                 path: "projet",
-                element: <FactoryPage />,
-            },
-            {
-                path: "projetdev",
                 element: <Projet />,
             },
             {
