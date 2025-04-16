@@ -7,6 +7,7 @@
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     margin: 1rem;
     text-align: center;
+    cursor: pointer;
 }
 
 .cardProjet:hover {
