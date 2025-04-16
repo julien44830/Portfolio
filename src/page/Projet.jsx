@@ -10,7 +10,7 @@ function Projet() {
         <div className="container-projet">
             <NavLink
                 to="/"
-                className="btn"
+                className="btn btn-return-projet"
             >
                 <p>retour à l&apos;accueil</p>
             </NavLink>
